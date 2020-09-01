@@ -11,7 +11,7 @@ compute:
 controlPlane:
   hyperthreading: Enabled
   name: master
-  replicas: 3
+  replicas: 1
 
 networking:
   clusterNetwork:
@@ -26,5 +26,5 @@ platform:
 
 fips: false
 
-pullSecret: '{"auths":{"fake":{"auth": "bar"}}}' 
-sshKey: 'ssh-ed25519 AAAA...'   
+#pullSecret: '{"auths":{"fake":{"auth": "bar"}}}' 
+#sshKey: 'ssh-ed25519 AAAA...'   
